@@ -1,0 +1,19 @@
+<img src="./assets/img/burger.jpg" alt="burger">
+
+<h2>Eat-Da-Burger</h2>
+<form class="create-form">
+
+<ul>
+  {{#each burgers}}
+    <li>{{burger_name}} <button data-id="{{id}}"> Devour</button></li>
+  {{/each}}
+</ul>
+
+  <div class="form-group">
+    <label for="ca"></label>
+    <input type="text" id="ca" name="name">
+  </div>
+
+  <button type="submit">Submit</button>
+  <h6>Enter a burger you want to eat and click the submit button</h6>
+</form>

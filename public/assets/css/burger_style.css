@@ -1,0 +1,19 @@
+img{
+    width: 150px;
+    height: 150px;
+}
+button{
+    background:lightskyblue;
+    border-radius: 15px;
+    width: 75px;
+    height: 50px;
+    font-weight: bold;
+}
+li {
+    padding: 5px;
+    margin: 5px;
+    background: #faebd7;
+  }
+body{
+    background: #faebd7;
+}
