@@ -2,7 +2,7 @@ img{
     width: 150px;
     height: 150px;
 }
-button{
+.devour-class, button{
     background:lightskyblue;
     border-radius: 15px;
     width: 75px;
@@ -17,3 +17,4 @@ li {
 body{
     background: #faebd7;
 }
+
