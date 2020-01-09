@@ -1,20 +1,46 @@
 img{
-    width: 150px;
-    height: 150px;
+    width: 200px;
+    height: 200px;
+    display: block; 
+    margin: auto;
+    border-radius: 35px;
+}
+body{
+    background: #faebd7;
+    width: 75%;
+    height: 75%;
+    display: flex;
+    font-family: fantasy;
+}
+h2,h4,p{
+    text-align: center;
+    margin: 50px;
+    font-family: fantasy;
 }
 .devour-class, button{
     background:lightskyblue;
     border-radius: 15px;
-    width: 75px;
-    height: 50px;
+    width: 85px;
+    height: 30px;
     font-weight: bold;
+    font-family: fantasy;
+    font-size: 1.2em;
+    text-align: center;
 }
-li {
-    padding: 5px;
-    margin: 5px;
-    background: #faebd7;
-  }
-body{
-    background: #faebd7;
+.devour-class{
+    float: right;
+    margin-left: 15px;
 }
-
+#devoured, #notDevoured{
+    font-size: 1.2em;
+    float: left;
+    padding: 50px;
+}
+#userBurger{
+    width: 220px;
+    height: 40px;
+    margin-bottom: 10px;
+}
+.form-group{
+    text-align: center;
+}
