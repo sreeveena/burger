@@ -1,8 +1,9 @@
 <form class="create-form">
-    <img src="./assets/img/burger.jpeg" alt="burger">
+    <img src="./assets/img/burger.jpeg" alt="burger"/>
     <h2>Eat-Da-Burger</h2>
     <p>Make burgers, eat burgers.</p>
-    <div>
+     
+    <div class="devoured-list">
         <div id="notDevoured">
             <ul>
             {{#each burgers}}
@@ -21,14 +22,15 @@
             {{/each}}
             </ul>
         </div>
+        <div>.</div>
+    </div>
+    <div class="form-group">
+        <div>.</div>
+        <h2>Make a Burger</h2>
+            <label for="ca"></label>
+            <input type="text" id="userBurger" name="name"/>
+            <button id="submit">Submit</button>
+        <h4>Enter a burger you want to eat and click the submit button</h4>
     </div>
  
-  <div class="form-group">
-   <h2>Make a Burger</h2>
-    <label for="ca"></label>
-    <input type="text" id="userBurger" name="name">
-    <button id="submit">Submit</button>
-  </div>
-  <h4>Enter a burger you want to eat and click the submit button</h4>
-  </div>
 </form>
